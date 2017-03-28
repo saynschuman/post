@@ -1,5 +1,7 @@
 @media screen and (max-width: 1200px) {
-
+main.delivery .calculator .choose-block .toggle-list {
+	left: 15px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -187,5 +189,12 @@
 	}
 	main.delivery .calculator .choose-block span.transparent {
 		display: none;
+	}
+	main.delivery .calculator .choose-block .toggle-list {
+		width: 100%;
+		max-width: 250px;
+	}
+	main.delivery .calculator .choose-block .toggle-list {
+		left: 15px;
 	}
 }

@@ -312,7 +312,8 @@ main.delivery .calculator {
   padding-bottom: 47px; }
   main.delivery .calculator .choose-block {
     text-align: center;
-    color: #fff; }
+    color: #fff;
+    position: relative; }
     main.delivery .calculator .choose-block span {
       font-size: 16px;
       font-family: 'helveticaneuecyr-medium';
@@ -320,6 +321,44 @@ main.delivery .calculator {
       display: block; }
       main.delivery .calculator .choose-block span.transparent {
         color: transparent; }
+      main.delivery .calculator .choose-block span.toggle-ic {
+        width: 20px;
+        position: absolute;
+        border: 10px solid transparent;
+        border-top: 10px solid #4fc1e9;
+        top: 50%;
+        -webkit-transform: translateY(-12%);
+            -ms-transform: translateY(-12%);
+                transform: translateY(-12%);
+        right: 35px; }
+    main.delivery .calculator .choose-block .toggle-list {
+      padding: 0;
+      position: absolute;
+      width: 193px;
+      bottom: -webkit-calc(-100% - 20px);
+      bottom: calc(-100% - 20px);
+      overflow: hidden;
+      border: 1px solid #fff;
+      display: none;
+      left: 25px; }
+      main.delivery .calculator .choose-block .toggle-list li {
+        list-style: none;
+        text-align: left;
+        background-color: #fff;
+        z-index: 99999;
+        position: relative;
+        width: 100%;
+        padding: 15px 20px;
+        color: #706e6e;
+        cursor: pointer;
+        -webkit-transition: .3s;
+        transition: .3s;
+        font-size: 16px; }
+        main.delivery .calculator .choose-block .toggle-list li:hover {
+          background-color: #4fc1e9;
+          -webkit-transition: .3s;
+          transition: .3s;
+          color: #fff; }
     main.delivery .calculator .choose-block input {
       height: 50px;
       width: 100%;
@@ -333,6 +372,8 @@ main.delivery .calculator {
       color: #706e6e;
       font-size: 16px;
       font-family: 'helveticaneuecyr-light'; }
+      main.delivery .calculator .choose-block input.toggle-input {
+        cursor: pointer; }
     main.delivery .calculator .choose-block button {
       display: block;
       color: #fff;
@@ -419,6 +460,10 @@ main.delivery .calculator {
         main.delivery .calculator .table-results ul li:last-child {
           text-align: right;
           width: 10%; }
+
+@media screen and (max-width: 1200px) {
+  main.delivery .calculator .choose-block .toggle-list {
+    left: 15px; } }
 
 @media screen and (max-width: 767px) {
   main.delivery .main-screen .left,
@@ -557,4 +602,9 @@ main.delivery .calculator {
     left: auto;
     background-color: #fff; }
   main.delivery .calculator .choose-block span.transparent {
-    display: none; } }
+    display: none; }
+  main.delivery .calculator .choose-block .toggle-list {
+    width: 100%;
+    max-width: 250px; }
+  main.delivery .calculator .choose-block .toggle-list {
+    left: 15px; } }

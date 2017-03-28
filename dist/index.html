@@ -105,7 +105,13 @@
 				<div class="row">
 					<div class="col-md-3 choose-block">
 						<span>Регион доставки:</span>
-						<input type="text" placeholder="Выбрать...">
+						<input type="text" id="region" class="toggle-input" readonly placeholder="Выбрать...">
+						<span class="toggle-ic"></span>
+						<ul data-id="region" class="toggle-list">
+							<li>Регион-1</li>
+							<li>Регион-2</li>
+							<li>Регион-3</li>
+						</ul>
 					</div>
 					<div class="col-md-3 choose-block">
 						<span>Вес в килограммах:</span>
@@ -123,7 +129,13 @@
 				<div class="row">
 					<div class="col-md-3 choose-block">
 						<span>Км от Насел. Пункта</span>
-						<input type="text" placeholder="0 км">
+						<input type="text" id="miles" class="toggle-input" readonly placeholder="0 км">
+						<span class="toggle-ic"></span>
+						<ul data-id="miles" class="toggle-list">
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+						</ul>						
 					</div>
 					<div class="col-md-6 col-12-choose choose-block">
 					<div class="col-md-12"><span>Объемный вес (Габариты)</span></div>
