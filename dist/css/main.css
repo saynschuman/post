@@ -1,3 +1,4 @@
+@import url(../libs/css/bootstrap.min.css);
 @font-face {
   font-family: 'helveticaneuecyr-thin';
   src: url(../fonts/helveticaneuecyr-thin.otf); }
@@ -143,3 +144,40 @@ main.delivery .main-screen {
             padding-top: 2px; }
             main.delivery .main-screen .right .form-wrapper form button:active::after {
               display: none; }
+
+@media screen and (max-width: 767px) {
+  main.delivery .main-screen .left,
+  main.delivery .main-screen .right {
+    float: none;
+    width: 100%;
+    max-width: 100%; }
+  main.delivery .main-screen .left .slogan {
+    max-width: 100%;
+    text-align: center; }
+  main.delivery .main-screen .left .details {
+    margin: auto;
+    text-align: center;
+    display: block; }
+  main.delivery .main-screen {
+    background-size: cover;
+    height: auto; }
+  .form-body {
+    padding: 0 15px; }
+  main.delivery .main-screen .right .form-wrapper form button {
+    margin: 20px auto;
+    max-width: 100%; }
+  main.delivery .main-screen .right .form-wrapper form span {
+    width: 100%;
+    margin: 20px auto; }
+  main.delivery .main-screen .right .form-wrapper form input {
+    margin: 20px auto;
+    max-width: 100%; } }
+
+@media screen and (max-width: 991px) {
+  main.delivery .main-screen .left .slogan,
+  main.delivery .main-screen .left .details {
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); } }

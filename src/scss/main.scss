@@ -1,5 +1,6 @@
 @import "includes/variables";
 @import "includes/fonts";
+@import "../libs/css/bootstrap.min.css";
 
 button:focus,
 input:focus {
@@ -139,3 +140,5 @@ main.delivery {
 		}
 	}
 }
+
+@import "media.scss";
