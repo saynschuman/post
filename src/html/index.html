@@ -11,7 +11,7 @@
                     <div class="right">
                         <div class="form-wrapper">
                             <form action="">
-                                <div class="form-header">ЗАКЛЮЧИТЬ ДОГОВОР</div>
+                                <div class="form-header">заключить договор</div>
                                 <div class="form-body">
                                     <input required type="text" placeholder="Ваше Имя">
                                     <input required type="tel" placeholder="Номер телефона">
@@ -23,6 +23,189 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
+        	<div class="title">ТАРИФЫ</div>
+        	<div class="sub-title">НА ДОСТАВКУ ЗАКАЗОВ ПО МОСКВЕ</div>
+        	<div class="table-header clearfix">
+        		<div class="left">Вес</div>
+        		<div class="right">Количество заказов в месяц</div>
+        	</div>
+        	<table class="tarifs-table">
+				<tr>
+					<th><span>В килограммах</span></th>
+					<th><span>До 300</span></th>
+					<th><span>До 800</span></th>
+					<th><span>До 1500</span></th>
+					<th><span>От 1500</span></th>
+				</tr>
+				<tr>                                           
+					<td data-label="Вес:"><span>До 1 кг</span></td>
+					<td data-label="До 300 заказов в мес."><span>200 руб.</span></td>
+					<td data-label="До 800 заказов в мес."><span>185 руб.</span></td>
+					<td data-label="До 1500 заказов в мес."><span>170 руб.</span></td>
+					<td data-label="От 1500 заказов в мес."><span>155 руб.</span></td>
+				</tr>
+				<tr>				
+					<td data-label="Вес:"><span>До 1 кг</span></td>
+					<td data-label="До 300 заказов в мес."><span>200 руб.</span></td>
+					<td data-label="До 800 заказов в мес."><span>185 руб.</span></td>
+					<td data-label="До 1500 заказов в мес."><span>170 руб.</span></td>
+					<td data-label="От 1500 заказов в мес."><span>155 руб.</span></td>
+				</tr>
+				<tr>
+					<td data-label="Вес:"><span>До 1 кг</span></td>
+					<td data-label="До 300 заказов в мес."><span>200 руб.</span></td>
+					<td data-label="До 800 заказов в мес."><span>185 руб.</span></td>
+					<td data-label="До 1500 заказов в мес."><span>170 руб.</span></td>
+					<td data-label="От 1500 заказов в мес."><span>155 руб.</span></td>
+				</tr>
+				<tr>
+					<td data-label="Вес:"><span>До 1 кг</span></td>
+					<td data-label="До 300 заказов в мес."><span>200 руб.</span></td>
+					<td data-label="До 800 заказов в мес."><span>185 руб.</span></td>
+					<td data-label="До 1500 заказов в мес."><span>170 руб.</span></td>
+					<td data-label="От 1500 заказов в мес."><span>155 руб.</span></td>
+				</tr>													
+			</table>
+			<div class="sub-title red">Забор до 10 заказов — 100 руб., более 10 — Бесплатный</div>
+			<div class="sub-title">Доставка заказов за МКАД <br> (плюс к основному тарифу)</div>
+			<table id="mkad" class="tarifs-table">
+				<tr>
+				                 	                                                                                          
+					<th><span>Расстояние от МКАД</span></th>
+					<th><span>0-10 км</span></th>
+					<th><span>10-20 км</span></th>
+					<th><span>20-30 км</span></th>
+					<th><span>30-40 км</span></th>
+					<th><span>40-50 км</span></th>
+				</tr>
+				<tr>                                    
+					<td data-label="Расстояние от МКАД"><span>Стоимость доставки</span></td>
+					<td data-label="0-10 км"><span>100 руб.</span></td>
+					<td data-label="10-20 км"><span>200 руб.</span></td>
+					<td data-label="20-30 км"><span>300 руб.</span></td>
+					<td data-label="30-40 км"><span>400 руб.</span></td>
+					<td data-label="40-50 км"><span>500 руб.</span></td>
+				</tr>
+			</table>	
+			<div class="calculator">
+				<div class="title white">Калькулятор</div>
+				<div class="row">
+					<div class="col-md-3 choose-block">
+						<span>Регион доставки:</span>
+						<input type="text" placeholder="Выбрать...">
+					</div>
+					<div class="col-md-3 choose-block">
+						<span>Вес в килограммах:</span>
+						<input type="text" placeholder="0">
+					</div>
+					<div class="col-md-3 choose-block">
+						<span>Оплата в рублях:</span>
+						<input type="text" placeholder="0">
+					</div>
+					<div class="col-md-3 choose-block">
+						<span>Оценка в рублях:</span>
+						<input type="text" placeholder="0">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 choose-block">
+						<span>Км от Насел. Пункта</span>
+						<input type="text" placeholder="0 км">
+					</div>
+					<div class="col-md-6 col-12-choose choose-block">
+					<div class="col-md-12"><span>Объемный вес (Габариты)</span></div>
+						<div class="input-wr col-md-4">
+							<div class="inp" data-title="Высота">
+								<input type="text" placeholder="0">
+							</div>
+						</div>
+						<div class="input-wr col-md-4">
+							<div class="inp" data-title="Ширина">
+								<input type="text" placeholder="0">
+							</div>
+						</div>
+						<div class="input-wr col-md-4">
+							<div class="inp" data-title="Длина">
+								<input type="text" placeholder="0">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 choose-block">
+						<span class="transparent">Оценка в рублях:</span>
+						<button type="button">Получить расчет</button>
+					</div>
+				</div>	
+				<div class="table-results clearfix">
+					<div class="left">
+						<ul>                                                         
+							<li>Доставка</li>
+							<li>Вес</li>
+							<li>Кассовое Обслуживание (3.0%)</li>
+							<li>Страховой сбор (0.75%)</li>
+							<li>Итого</li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>0.00 руб.</li>
+							<li>0.00 кг</li>
+							<li>0.00 руб.</li>
+							<li>0.00 руб.</li>
+							<li>0.00 руб.</li>
+						</ul>
+					</div>
+				</div>			
+			</div>
+			<div class="title">Условия доставки по Москве</div>
+			<div class="row delivery-row">
+				<div class="col-md-4 block">
+					<img src="img/1.jpg" alt="">
+					<div class="text">Кассовое <br>
+					обслуживание 1,5% <br>
+					от суммы заказа (включая страховой <br>
+					сбор 0,5%)</div>
+				</div>
+				<div class="col-md-4 block">
+					<img src="img/2.jpg" alt="">
+					<div class="text">с понедельника по пятницу с 10:00 до 21:00. <br>
+					Суббота, воскресенье <br>
+					и праздничные дни <br>
+					с 10:00 до 18:00</div>
+				</div>
+				<div class="col-md-4 block">
+					<img src="img/3.jpg" alt="">
+					<div class="text">Минимальный <br>
+					интервал доставки <br>
+					3 часа <br>
+					Время ожидания <br>
+					курьером 15 минут</div>
+				</div>
+			</div>
+			<div class="title">Преимущества работы с нами</div>
+			<div class="row delivery-row">
+				<div class="col-md-4 block">
+					<img src="img/4.jpg" alt="">
+					<div class="text">Вызов курьера  <br>
+					для забора заказов <br>
+					до 13:00 <br>
+					в день забора заказов
+					</div>
+				</div>
+				<div class="col-md-4 block">
+					<img src="img/5.jpg" alt="">
+					<div class="text">Бесплатный <br>
+					возврат заказов <br>
+					при заборе</div>
+				</div>
+				<div class="col-md-4 block">
+					<img src="img/6.png" alt="">
+					<div class="text">SMS <br>
+					уведомление <br>
+					перед доставкой</div>
+				</div>
+			</div>					
         </div>
     </main>
 

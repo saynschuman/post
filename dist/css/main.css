@@ -145,6 +145,281 @@ main.delivery .main-screen {
             main.delivery .main-screen .right .form-wrapper form button:active::after {
               display: none; }
 
+main.delivery .title {
+  font-size: 45.1px;
+  color: #0e2534;
+  font-family: 'helveticaneuecyr-light';
+  line-height: 1.5;
+  text-align: center;
+  padding: 60px 0 20px;
+  text-transform: uppercase; }
+  main.delivery .title.white {
+    color: #fff;
+    padding: 37px 0; }
+
+main.delivery .sub-title {
+  color: #0b2232;
+  font-size: 22.37px;
+  font-family: 'helveticaneuecyr-light';
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2; }
+  main.delivery .sub-title.red {
+    color: #dc4a38;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+
+main.delivery .table-header {
+  background-color: #4fc1e9;
+  color: #fff;
+  font-family: 'helveticaneuecyr-medium';
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  -webkit-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+  margin-top: 30px; }
+  main.delivery .table-header::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: #3bafda;
+    width: 100%; }
+  main.delivery .table-header .left {
+    float: left;
+    width: 20%;
+    margin: 5px 0;
+    padding: 10px 0;
+    position: relative; }
+    main.delivery .table-header .left::after {
+      content: '';
+      position: absolute;
+      right: -2px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 90%;
+      width: 1px;
+      background-color: #fff; }
+  main.delivery .table-header .right {
+    float: right;
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px 0; }
+
+main.delivery table.tarifs-table {
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 1px solid #e0e6ed; }
+  main.delivery table.tarifs-table#mkad {
+    margin-top: 30px; }
+    main.delivery table.tarifs-table#mkad tr:last-child span {
+      margin-bottom: 8px; }
+    main.delivery table.tarifs-table#mkad th {
+      width: 16%; }
+      main.delivery table.tarifs-table#mkad th span {
+        color: #0f2635;
+        font-family: 'helveticaneuecyr-thin'; }
+    main.delivery table.tarifs-table#mkad td {
+      width: 16%; }
+      main.delivery table.tarifs-table#mkad td span {
+        display: block;
+        position: relative;
+        padding: 5px 0; }
+        main.delivery table.tarifs-table#mkad td span::after {
+          display: none; }
+  main.delivery table.tarifs-table tr {
+    text-align: center;
+    font-size: 16px;
+    color: #0f2635;
+    font-family: 'helveticaneuecyr-light'; }
+    main.delivery table.tarifs-table tr:nth-child(2) td span {
+      margin-top: 7px; }
+    main.delivery table.tarifs-table tr:last-child td span {
+      margin-bottom: 18px; }
+    main.delivery table.tarifs-table tr th {
+      vertical-align: middle;
+      width: 20%;
+      padding: 7px 0;
+      background-color: #e0e6ed;
+      color: #0f2635;
+      font-size: 16px;
+      text-align: center;
+      position: relative; }
+      main.delivery table.tarifs-table tr th:first-child {
+        border-left: none; }
+        main.delivery table.tarifs-table tr th:first-child span {
+          border-left: none; }
+      main.delivery table.tarifs-table tr th span {
+        display: block;
+        border-left: 1px solid #fff;
+        padding: 5px 0; }
+      main.delivery table.tarifs-table tr th::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1px;
+        background-color: #cadfea;
+        width: 100%; }
+    main.delivery table.tarifs-table tr td {
+      vertical-align: middle;
+      width: 20%; }
+      main.delivery table.tarifs-table tr td span {
+        display: block;
+        position: relative;
+        padding: 15px 0; }
+        main.delivery table.tarifs-table tr td span::after {
+          content: '';
+          position: absolute;
+          right: -1px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          height: 100%;
+          width: 1px;
+          background-color: #e0e6ed; }
+      main.delivery table.tarifs-table tr td:last-child span::after {
+        display: none; }
+
+main.delivery .delivery-row {
+  margin-bottom: 30px; }
+
+main.delivery .block img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px; }
+
+main.delivery .block .text {
+  font-size: 22.33px;
+  text-align: center;
+  color: #0b2232;
+  line-height: 1.4;
+  text-transform: uppercase; }
+
+main.delivery .calculator {
+  background-color: #4fc1e9;
+  margin-top: 90px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  padding: 0 40px;
+  padding-bottom: 47px; }
+  main.delivery .calculator .choose-block {
+    text-align: center;
+    color: #fff; }
+    main.delivery .calculator .choose-block span {
+      font-size: 16px;
+      font-family: 'helveticaneuecyr-medium';
+      margin-bottom: 15px;
+      display: block; }
+      main.delivery .calculator .choose-block span.transparent {
+        color: transparent; }
+    main.delivery .calculator .choose-block input {
+      height: 50px;
+      width: 100%;
+      max-width: 196px;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
+      border: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 30px;
+      color: #706e6e;
+      font-size: 16px;
+      font-family: 'helveticaneuecyr-light'; }
+    main.delivery .calculator .choose-block button {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'helveticaneuecyr-medium';
+      text-align: center;
+      -webkit-border-radius: 3px;
+              border-radius: 3px;
+      background-color: #dc4a38;
+      -webkit-box-shadow: 0px 2px 0px 0px rgba(190, 63, 48, 0.004);
+              box-shadow: 0px 2px 0px 0px rgba(190, 63, 48, 0.004);
+      width: 100%;
+      margin: auto;
+      max-width: 196px;
+      height: 50px;
+      border: none;
+      position: relative;
+      border: 1px solid #dc4a38;
+      -webkit-transition: .3s;
+      transition: .3s; }
+      main.delivery .calculator .choose-block button:hover {
+        background-color: #fa4a38;
+        -webkit-transition: .3s;
+        transition: .3s; }
+      main.delivery .calculator .choose-block button::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        height: 2px;
+        width: 99%;
+        background-color: #be3f30; }
+      main.delivery .calculator .choose-block button:active {
+        padding-top: 2px; }
+        main.delivery .calculator .choose-block button:active::after {
+          display: none; }
+    main.delivery .calculator .choose-block .input-wr {
+      padding: 0 9px; }
+      main.delivery .calculator .choose-block .input-wr .inp {
+        position: relative; }
+        main.delivery .calculator .choose-block .input-wr .inp::after {
+          content: attr(data-title);
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          left: 0;
+          font-size: 16px;
+          font-family: 'helveticaneuecyr-medium'; }
+  main.delivery .calculator .table-results {
+    background-color: #fff;
+    padding: 25px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    max-width: 931px;
+    margin: auto;
+    margin-top: 60px; }
+    main.delivery .calculator .table-results .left {
+      border-bottom: 1px solid #c1cddb; }
+      main.delivery .calculator .table-results .left ul li {
+        font-size: 16px;
+        font-family: 'helveticaneuecyr-medium'; }
+    main.delivery .calculator .table-results .right ul li {
+      font-size: 16px;
+      font-family: 'helveticaneuecyr-light'; }
+      main.delivery .calculator .table-results .right ul li:last-child {
+        color: #dc4a38; }
+    main.delivery .calculator .table-results ul {
+      padding: 0; }
+      main.delivery .calculator .table-results ul li {
+        list-style: none;
+        display: inline-block;
+        width: 34%;
+        text-align: center;
+        padding: 0;
+        color: #0f2635; }
+        main.delivery .calculator .table-results ul li:first-child {
+          text-align: left;
+          width: 10%; }
+        main.delivery .calculator .table-results ul li:nth-child(2) {
+          width: 10%; }
+        main.delivery .calculator .table-results ul li:last-child {
+          text-align: right;
+          width: 10%; }
+
 @media screen and (max-width: 767px) {
   main.delivery .main-screen .left,
   main.delivery .main-screen .right {
@@ -174,10 +449,112 @@ main.delivery .main-screen {
     max-width: 100%; } }
 
 @media screen and (max-width: 991px) {
+  main.delivery .title {
+    line-height: 1.2;
+    font-size: 37px; }
   main.delivery .main-screen .left .slogan,
   main.delivery .main-screen .left .details {
     position: relative;
     top: 0;
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
-            transform: translateY(0); } }
+            transform: translateY(0); }
+  main.delivery table.tarifs-table tr {
+    display: block;
+    width: 100%;
+    text-align: right; }
+  main.delivery table.tarifs-table tr th {
+    display: none; }
+  main.delivery table.tarifs-table tr td {
+    display: block;
+    width: 100% !important;
+    position: relative;
+    border-bottom: 1px solid #c3c3c3;
+    position: relative;
+    padding-left: 50%;
+    padding-right: 15px; }
+    main.delivery table.tarifs-table tr td:first-child {
+      background-color: #e0e6ed; }
+    main.delivery table.tarifs-table tr td::before {
+      content: attr(data-label);
+      float: left;
+      display: block;
+      width: 80%;
+      font-weight: 300;
+      height: 100%;
+      top: 15px;
+      padding-right: 20px;
+      padding-left: 0;
+      position: absolute;
+      left: 15px;
+      text-align: left; }
+  main.delivery .table-header {
+    display: none; }
+  main.delivery table.tarifs-table tr td span::after {
+    display: none; }
+  main.delivery table.tarifs-table tr:last-child td span {
+    margin-bottom: 0; }
+  main.delivery table.tarifs-table#mkad tr:last-child span {
+    margin-bottom: 0; }
+  main.delivery table.tarifs-table#mkad tr td::before {
+    top: 2px; }
+  main.delivery table.tarifs-table#mkad tr td:first-child::before {
+    top: 5px; }
+  main.delivery .calculator .choose-block input {
+    max-width: 100%; }
+  main.delivery .calculator .choose-block span {
+    text-align: left; }
+  main.delivery .calculator .choose-block button {
+    max-width: 100%; }
+  main.delivery .calculator {
+    padding: 0 20px 30px; }
+    main.delivery .calculator .table-results .left {
+      border-bottom: none;
+      border-right: 1px solid #c1cddb;
+      width: 50%;
+      float: left; }
+      main.delivery .calculator .table-results .left ul li {
+        font-size: 16px;
+        font-family: 'helveticaneuecyr-medium';
+        text-align: left; }
+    main.delivery .calculator .table-results .right {
+      width: 50%;
+      float: right; }
+      main.delivery .calculator .table-results .right ul li {
+        font-size: 16px;
+        font-family: 'helveticaneuecyr-light';
+        text-align: right; }
+    main.delivery .calculator .table-results ul {
+      padding: 0; }
+      main.delivery .calculator .table-results ul li {
+        list-style: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        color: #0f2635;
+        display: block; }
+        main.delivery .calculator .table-results ul li:first-child {
+          width: 100%; }
+        main.delivery .calculator .table-results ul li:nth-child(2) {
+          width: 100%; }
+        main.delivery .calculator .table-results ul li:last-child {
+          width: 100%; }
+  .col-12-choose {
+    padding: 0 6px; }
+  main.delivery .calculator .table-results {
+    margin-top: 35px; }
+  main.delivery .calculator .choose-block .input-wr .inp::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: auto;
+    width: 80px;
+    text-align: right;
+    right: 11px;
+    z-index: 99999999;
+    color: #bcbcbc;
+    top: 15px;
+    left: auto;
+    background-color: #fff; }
+  main.delivery .calculator .choose-block span.transparent {
+    display: none; } }
